@@ -18,7 +18,12 @@ gem 'devise-i18n'
 gem 'bootstrap_sb_admin_base_v2'
 gem 'bootstrap'
 
+source 'https://rails-assets.org' do
+  gem 'rails-assets-notify'
+  gem 'rails-assets-bootbox'
+end
 
+gem 'faker'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
